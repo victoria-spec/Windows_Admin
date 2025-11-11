@@ -24,7 +24,7 @@ Here is a list of the PowerShell scripts included in this repository:
 | `Script1.ps1` | Description of what Script1 does |
 | `Script2.ps1` | Description of what Script2 does |
 | `Script3.ps1` | Description of what Script3 does |
-| ... | ... |
+| script44 | .discription |
 
 > ⚠️ Make sure to check each script’s documentation for prerequisites and usage instructions.
 
