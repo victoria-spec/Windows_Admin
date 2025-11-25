@@ -23,7 +23,7 @@ Here is a list of the PowerShell scripts included in this repository:
 |-------------|-------------|-------|
 | `add_domain_controler.ps1` | Add domain controler to server |Install-ADDomain -DomainName "yourdomain.local" -SafeModePassword "password" "
 | `add_member_domain.ps1` | Adds a workstation to the domain | Join-ComputerToDomain -DomainName "yourdomain.local" -DomainUser "Administrator" -Password "password" -Restart|
-| `Script3.ps1` | Description of what Script3 does | |
+| `add_organization_unit.ps1` | Adds organization unit |Add-OrganizationUnit -OUName "organization_unit_name" -ParentDN "DC=yourdomain,DC=local"; Add-OrganizationUnit -OUName "Workstations" -ParentDN "OU=IT,DC=skills,DC=local"|
 | script44 | .discription | |
 
 > ⚠️ Make sure to check each script’s documentation for prerequisites and usage instructions.
